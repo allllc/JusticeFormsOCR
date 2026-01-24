@@ -1,0 +1,33 @@
+# Court Date OCR - Python Dependencies
+# Compatible with Python 3.10, 3.11, 3.12, 3.13 (with workarounds for 3.13)
+
+# Core
+numpy>=1.24.0
+pillow>=10.0.0
+matplotlib>=3.7.0
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# OCR Libraries
+easyocr>=1.7.0
+surya-ocr>=0.4.0
+paddlepaddle>=2.6.0
+paddleocr>=2.7.0
+pytesseract>=0.3.10
+
+# Layout Detection
+doclayout-yolo>=0.0.2
+python-doctr>=0.8.0
+# Note: surya also provides layout detection
+
+# Deep Learning (PyTorch - CPU by default)
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Utilities
+tqdm>=4.65.0
+opencv-python>=4.8.0
+pdf2image>=1.16.0  # For PDF processing
+
+# Web App Backend (if running the testing app)
+# See ocr-testing-app/backend/requirements.txt for full list

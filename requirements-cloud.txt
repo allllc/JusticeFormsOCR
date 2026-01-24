@@ -1,0 +1,43 @@
+# Requirements for Vertex AI Workbench (Python 3.10/3.11)
+# This file is optimized for cloud execution without Windows compatibility issues
+
+# Core
+numpy>=1.24.0,<2.0
+pillow>=10.0.0
+matplotlib>=3.7.0
+jupyter>=1.0.0
+ipykernel>=6.0.0
+tqdm>=4.65.0
+
+# OCR Libraries
+easyocr>=1.7.0
+surya-ocr>=0.4.0
+paddlepaddle>=2.5.0  # Works well on Linux
+paddleocr>=2.7.0
+pytesseract>=0.3.10
+
+# Layout Detection
+doclayout-yolo>=0.0.2
+python-doctr[torch]>=0.8.0
+
+# Deep Learning (PyTorch - CPU)
+torch>=2.0.0
+torchvision>=0.15.0
+
+# GCP Libraries
+google-cloud-storage>=2.13.0
+google-cloud-vision>=3.4.0  # For Cloud Vision OCR
+google-cloud-documentai>=2.20.0  # For Document AI
+
+# Image Processing
+opencv-python>=4.8.0
+pdf2image>=1.16.0
+
+# Utilities
+python-dateutil>=2.8.0
+requests>=2.28.0
+
+# For the web app backend (optional)
+# fastapi>=0.104.0
+# uvicorn[standard]>=0.24.0
+# google-cloud-firestore>=2.13.0
