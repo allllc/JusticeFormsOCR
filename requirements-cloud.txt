@@ -7,7 +7,11 @@ pillow>=10.0.0
 matplotlib>=3.7.0
 jupyter>=1.0.0
 ipykernel>=6.0.0
+ipywidgets>=8.0.0
+ipycanvas>=0.13.0  # Interactive canvas for coordinate picker
+ipyevents>=2.0.0   # Click events for ipycanvas
 tqdm>=4.65.0
+pymupdf>=1.23.0    # PDF handling without LibreOffice
 
 # OCR Libraries
 easyocr>=1.7.0
