@@ -38,6 +38,7 @@ models/
 .env.local
 *.json
 !package.json
+!field_configs/*.json
 
 # Node modules (frontend)
 node_modules/
