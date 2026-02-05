@@ -26,7 +26,9 @@ filled_documents/
 base_forms/
 layout_results/
 ocr_results/
-models/
+/models/
+documents/
+nul
 
 # Temporary files
 *.tmp
@@ -36,8 +38,11 @@ models/
 # Environment files with secrets
 .env
 .env.local
-*.json
-!package.json
+sa-key.json
+*-sa-key.json
+
+# Ignore JSON in root (credentials, service accounts) but allow in subdirectories
+/*.json
 !field_configs/*.json
 
 # Node modules (frontend)
